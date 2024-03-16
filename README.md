@@ -1,51 +1,31 @@
-<div align="center">
-  <img src="https://adocs.vercel.app/logo-big.svg" width="100px" height="100px" alt="adocs logo" />
-  <h1>Adocs</h1>
-  <p>A docs template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
-  <p>This repository serves as a resource for the tutorial, <a href="https://www.freecodecamp.org/news/how-to-build-a-modern-documentation-site-with-vitepress/">How to Build a Modern Documentation Site with VitePress</a> posted on freeCodeCamp</p>
-</div>
+<img src="https://avatars.githubusercontent.com/u/151816514?s=200&v=4" alt="logo" width="140" height="140" align="left" />
+
+<h1>RR: <small>Yet a Better Redistributed Fork of ARPL for Redpill Bootload Automation</small></h1>
+
+> The ultimate solution to self-centralized Synology DSM OS on any local machine with any x86/x64 CPU architecture via a single flash of bootload pre-installation process in addition within recovery environment.
+
 
 ## Run project locally
 
 Use this command below to boot this project locally.
 
 ```bash
-git clone https://github.com/Evavic44/adocs.git
+git clone https://github.com/RROrg/rr-docs.git
 
-cd adocs
+cd rr-docs
 
-npm install
+npm install pnpm -g
 
-npm run docs:dev
+pnpm i
+
+pnpm dev
 ```
 
-Visit [https://localhost:5173](https://localhost:5173) to see your site
+Visit [`https://localhost:5173`](https://localhost:5173) to see your site
 
 ## Build
 You may run this command to build the docs
 
 ```bash
-npm run docs:build
-```
-
-## Folder Structure
-
-```
-docs/
-├── .vitepress/
-│   ├── config.js
-│   └── theme/
-│       ├── index.js
-│       └── custom.css
-├── public/
-│   ├── logo.svg
-│   └── logo-big.svg
-├── about.md
-├── configs.md
-├── contact.md
-├── get-started.md
-├── guide.md
-├── index.md
-├── package.json
-└── README.md
+pnpm build
 ```
