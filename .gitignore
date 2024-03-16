@@ -28,3 +28,4 @@ node_modules
 
 # vitepress build cache
 cache
+dist
