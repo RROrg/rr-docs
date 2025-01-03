@@ -4,19 +4,21 @@ layout: home
 # Hero section
 hero:
   name: RR
-  text: Better Fork of ARPL
+  text: RROrg
   image:
     src: "https://avatars.githubusercontent.com/u/151816514?s=200&v=4"
     alt: RR Logo
-  tagline: Yet a Better Redistributed Fork of ARPL for Redpill Bootload Automation
+  tagline: Redpill’s preinstallation and recovery environment
   actions:
     - theme: brand
       text: Get Started
-      link: /guide
+      link: /guide.md
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Evavic44/RR
-
+      link: https://github.com/rrorg/rr
+    - theme: alt
+      text: Customize RR
+      link: https://rrorg.github.io/rr/issues.html
 # Features section
 features:
   - icon: ⚡️
